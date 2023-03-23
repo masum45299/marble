@@ -1,0 +1,21 @@
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    
+}
+@media screen and (max-width:578px) {
+    .display-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+.width{
+    width: 100%;
+}
+.font-weight{
+    font-family: 'Roboto Condensed', sans-serif;;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
