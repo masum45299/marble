@@ -1,13 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './Components/NavBar/NavBar';
 import Home from './Components/Home/Home';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Main from './Components/Main/Main';
 
 function App() {
+  const router=createBrowserRouter([
+    {path:'/', element: <Main></Main>,children:([
+      {path:'/', element: <Home></Home>},
+      {path:'/Home', element: <Home></Home>},
+      {path:'/About', element: <Home></Home>},
+      {path:'/Journal', element: <Home></Home>},
+      {path:'/Service', element: <Home></Home>},
+      {path:'/Features', element: <Home></Home>},
+      {path:'/Contact', element: <Home></Home>},
+    ])}
+  ])
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <Home></Home>
+      <RouterProvider
+      router={router}
+      ></RouterProvider>
     </div>
   );
 }

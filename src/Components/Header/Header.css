@@ -1,0 +1,34 @@
+header{
+    background-image: url(./header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+ 
+}
+.button{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 17px 26px;
+    background-color: #3f8dbf;
+    border-bottom: 2px solid #3678a3;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.header-text{
+    text-align: center;
+    padding-top: 198px;
+    padding-bottom: 198px;
+
+}
+.header-text h1{
+    font-size: 40px;
+    color: #f3f3f3;
+    margin-bottom: 36px;
+}
+.header-text h2{
+    font-size: 32px;
+    color: #a8a8a8;
+    margin-bottom: 38px;
+}
