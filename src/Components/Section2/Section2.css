@@ -1,0 +1,6 @@
+.container-full::before{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: red;
+}
