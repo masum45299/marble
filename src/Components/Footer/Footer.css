@@ -34,6 +34,16 @@ footer::after{
     color: #cacaca;
     margin-left: 17px;
 }
+.text-color2{
+    color: #cacaca;
+
+}
+
 .extra-margin{
     margin-bottom: 44px;
+}
+.footer-text{
+    color: #cacaca;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }

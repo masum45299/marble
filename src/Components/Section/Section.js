@@ -7,7 +7,7 @@ import section3 from './section3.png';
 const Section = () => {
     return (
         <div className='container mb-5'>
-            <h3 style={{fontSize:"18px",marginBottom:"25px"}}>OUR LATEST WORKS</h3>
+            <h3 className='font-bold2' style={{fontSize:"18px",marginBottom:"25px"}}>OUR LATEST WORKS</h3>
         
             <div className='display-grid'>
                 <div >
